@@ -1,0 +1,82 @@
+/* Estilo básico para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #7f8c8d;
+}
+
+/* Estilo do campo de input */
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo do botão */
+.btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão */
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo da área de resultado */
+.resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #27ae60;
+    padding: 10px;
+    border: 2px solid #27ae60;
+    border-radius: 5px;
+    background-color: #ecf9f1;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
